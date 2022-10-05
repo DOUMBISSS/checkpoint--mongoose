@@ -9,7 +9,7 @@ let personSchema = new mongoose.Schema({
     },
     age:Number,
     contacts :Array,
-    favoriteFoods:Array,
+    favoriteFoods:[String],
     date: { type: Date, default: Date.now },
 })
 
